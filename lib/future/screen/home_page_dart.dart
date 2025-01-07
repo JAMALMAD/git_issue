@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import '../../core/controller/controller.dart';
@@ -10,8 +9,6 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final CounterController controller = Get.put(CounterController());
-
-    // controller.loadCounter();
 
     return Scaffold(
       appBar: AppBar(title: const Text('GetX Example')),
