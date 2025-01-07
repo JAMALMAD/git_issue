@@ -15,8 +15,18 @@ class MyHomePage extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Obx(() => Text(
-              "${controller.counter.value}",
+            Obx(() => Container(
+              height: 20,
+              width: 200,
+              decoration: BoxDecoration(
+                color: Colors.grey,
+              ),
+              child: Text(
+                "${controller.counter.value}",
+                style: TextStyle(
+                  color: Colors.red,
+                ),
+              ),
             )),
           ],
         ),
