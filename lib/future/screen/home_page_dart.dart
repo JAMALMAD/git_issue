@@ -7,7 +7,6 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final CounterController controller = Get.put(CounterController());
 
     return Scaffold(
