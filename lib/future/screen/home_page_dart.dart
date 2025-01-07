@@ -7,11 +7,10 @@ class MyHomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-
     final CounterController controller = Get.put(CounterController());
 
     return Scaffold(
-      appBar: AppBar(title: const Text('GetX Example')),
+      appBar: AppBar(title: const Text('GetX')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
